@@ -15,7 +15,13 @@
         [class^="row"] {}
 
         [class^="col-"] {
-            ;
+
+            font-size: 0.75rem;
+
+        }
+
+        .colonna-2 {
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -25,14 +31,14 @@
     <h6 class="text-center pb-4 fw-light"><small>Layout a griglia con diversi breakpoint (sm, md, lg)</small></h6>
     <div class="container mb-4">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 text-bg-light p-3 text-start fs-12">
+            <div class="col-sm-12 col-md-6 col-lg-3 text-bg-light p-3 text-start">
                 <h5>Colonna 1</h5><small>Larghezza intera su dispositivi piccoli, met&agrave; larghezza su dispositivi
                     medi e un terzo su dispositivi grandi.</small>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-9 text-bg-secondary p-3 text-start">
-                <h5>Colonna 2</h5><small>Larghezza intera su dispositivi piccoli, met&agrave; larghezza su dispositivi
-                    medi e
-                    due terzi su dispositivi grandi.</small>
+            <div class="col-sm-12 col-md-6 col-lg-9 text-bg-secondary p-3 text-start fs-7 colonna-2">
+                <h5>Colonna 2</h5>Larghezza intera su dispositivi piccoli, met&agrave; larghezza su dispositivi
+                medi e
+                due terzi su dispositivi grandi.
             </div>
         </div>
     </div>
